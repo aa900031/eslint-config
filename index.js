@@ -4,6 +4,7 @@ module.exports = {
 		'no-tabs': 0,
 		'indent': ['error', 'tab'],
 		'jsonc/indent': ['error', 'tab'],
+		'vue/html-indent': ['error', 'tab'],
 		'@typescript-eslint/indent': ['error', 'tab'],
 	},
 }
