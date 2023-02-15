@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v0.1.1
+
+
+### 🚀 Enhancements
+
+  - Vue indent (45e8179)
+
+### ❤️  Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v0.1.0
 
 
