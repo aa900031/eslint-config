@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://undefined/undefined/compare/v0.1.1...v0.2.0)
+
+
+### 🏡 Chore
+
+  - 指定 pnpm (3acda24)
+  - 更新依賴 (04b9d46)
+
+### ❤️  Contributors
+
+- Zhong666 ([@aa900031](http://github.com/aa900031))
+
 ## v0.1.1
 
 
