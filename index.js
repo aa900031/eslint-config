@@ -24,7 +24,6 @@ const indentOpts = () => ({
 module.exports = {
 	extends: '@antfu',
 	rules: {
-		'eqeqeq': ['error', 'smart'],
 		'no-tabs': 0,
 		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		...indentOpts(),
