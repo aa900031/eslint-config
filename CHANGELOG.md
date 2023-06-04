@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.2.3
+
+[compare changes](https://undefined/undefined/compare/v0.2.2...v0.2.3)
+
+
+### 🏡 Chore
+
+  - Update deps (c52c2b7)
+
+### ❤️  Contributors
+
+- Zhong666 ([@aa900031](http://github.com/aa900031))
+
 ## v0.2.2
 
 [compare changes](https://undefined/undefined/compare/v0.2.1...v0.2.2)
