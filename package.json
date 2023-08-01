@@ -1,31 +1,31 @@
 {
-	"name": "@aa900031/eslint-config",
-	"type": "commonjs",
-	"version": "0.2.3",
-	"packageManager": "pnpm@8.6.11",
-	"description": "ESLint config for @aa900031",
-	"author": {
-		"name": "zhong666",
-		"email": "aa900031@gmail.com"
-	},
-	"license": "MIT",
-	"main": "index.js",
-	"files": [
-		"index.js"
-	],
-	"scripts": {
-		"lint": "eslint .",
-		"release": "changelogen --release"
-	},
-	"peerDependencies": {
-		"eslint": "*"
-	},
-	"dependencies": {
-		"@antfu/eslint-config": "^0.39.8"
-	},
-	"devDependencies": {
-		"changelogen": "^0.5.4",
-		"eslint": "^8.46.0",
-		"typescript": "^5.1.6"
-	}
+  "name": "@aa900031/eslint-config",
+  "type": "commonjs",
+  "version": "0.2.4",
+  "packageManager": "pnpm@8.6.11",
+  "description": "ESLint config for @aa900031",
+  "author": {
+    "name": "zhong666",
+    "email": "aa900031@gmail.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "release": "changelogen --release"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^0.39.8"
+  },
+  "devDependencies": {
+    "changelogen": "^0.5.4",
+    "eslint": "^8.46.0",
+    "typescript": "^5.1.6"
+  }
 }

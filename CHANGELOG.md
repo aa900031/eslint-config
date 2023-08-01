@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.2.4
+
+[compare changes](https://undefined/undefined/compare/v0.2.3...v0.2.4)
+
+### 🏡 Chore
+
+- Fix lint (449359c)
+
+### ❤️  Contributors
+
+- Zhong666 ([@aa900031](http://github.com/aa900031))
+
 ## v0.2.3
 
 [compare changes](https://undefined/undefined/compare/v0.2.2...v0.2.3)
