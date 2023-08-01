@@ -5,20 +5,25 @@ const hasTs = (() => {
 	try {
 		const ts = require('typescript')
 		return !!ts
-	} catch (e) {
+	}
+	catch (e) {
 		return false
 	}
 })()
 
-const indentOpts = () => ({
-	'jsonc/indent': ['error', 'tab'],
-	'vue/html-indent': ['error', 'tab'],
-	...(hasTs ? {
-		'@typescript-eslint/indent': [configTs.rules['@typescript-eslint/indent'][0], 'tab', configTs.rules['@typescript-eslint/indent'][2]],
-	} : {
-		'indent': [configBasic.rules.indent[0], 'tab', configBasic.rules.indent[2]],
-	})
-})
+function indentOpts() {
+	return {
+		'jsonc/indent': ['error', 'tab'],
+		'vue/html-indent': ['error', 'tab'],
+		...(hasTs
+			? {
+					'@typescript-eslint/indent': [configTs.rules['@typescript-eslint/indent'][0], 'tab', configTs.rules['@typescript-eslint/indent'][2]],
+				}
+			: {
+					indent: [configBasic.rules.indent[0], 'tab', configBasic.rules.indent[2]],
+				}),
+	}
+}
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
