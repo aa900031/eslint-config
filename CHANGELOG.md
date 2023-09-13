@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.2.5
+
+[compare changes](https://gitlab.com/aa900031/eslint-config/compare/v0.2.4...v0.2.5)
+
+### 🏡 Chore
+
+- Update deps ([3538b33](https://gitlab.com/aa900031/eslint-config/commit/3538b33))
+- **ci:** Update node 18 ([3993fb8](https://gitlab.com/aa900031/eslint-config/commit/3993fb8))
+
+### ❤️ Contributors
+
+- Zhong666 ([@aa900031](http://github.com/aa900031))
+
 ## v0.2.4
 
 [compare changes](https://undefined/undefined/compare/v0.2.3...v0.2.4)
