@@ -1,5 +1,6 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ## v0.2.6
 
@@ -12,9 +13,9 @@
 - **ci:** Add permissions to release actions ([06dbf11](https://github.com/aa900031/eslint-config/commit/06dbf11))
 - Rm gitlab-ci ([7f9f70f](https://github.com/aa900031/eslint-config/commit/7f9f70f))
 
-### ❤️ Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.2.5
 
@@ -25,64 +26,64 @@
 - Update deps ([3538b33](https://gitlab.com/aa900031/eslint-config/commit/3538b33))
 - **ci:** Update node 18 ([3993fb8](https://gitlab.com/aa900031/eslint-config/commit/3993fb8))
 
-### ❤️ Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.2.4
 
-[compare changes](https://undefined/undefined/compare/v0.2.3...v0.2.4)
+[compare changes](https://github.com/aa900031/eslint-config/compare/v0.2.3...v0.2.4)
 
 ### 🏡 Chore
 
 - Fix lint (449359c)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.2.3
 
-[compare changes](https://undefined/undefined/compare/v0.2.2...v0.2.3)
+[compare changes](https://github.com/aa900031/eslint-config/compare/v0.2.2...v0.2.3)
 
 
 ### 🏡 Chore
 
   - Update deps (c52c2b7)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.2.2
 
-[compare changes](https://undefined/undefined/compare/v0.2.1...v0.2.2)
+[compare changes](https://github.com/aa900031/eslint-config/compare/v0.2.1...v0.2.2)
 
 
 ### 🏡 Chore
 
   - Update deps (4508c22)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.2.1
 
-[compare changes](https://undefined/undefined/compare/v0.2.0...v0.2.1)
+[compare changes](https://github.com/aa900031/eslint-config/compare/v0.2.0...v0.2.1)
 
 
 ### 🩹 Fixes
 
   - Indent (9804c04)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.2.0
 
-[compare changes](https://undefined/undefined/compare/v0.1.1...v0.2.0)
+[compare changes](https://github.com/aa900031/eslint-config/compare/v0.1.1...v0.2.0)
 
 
 ### 🏡 Chore
@@ -90,9 +91,9 @@
   - 指定 pnpm (3acda24)
   - 更新依賴 (04b9d46)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
-- Zhong666 ([@aa900031](http://github.com/aa900031))
+- Zhong666 <aa900031@gmail.com>
 
 ## v0.1.1
 
@@ -101,7 +102,7 @@
 
   - Vue indent (45e8179)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
 - Zhong666 <aa900031@gmail.com>
 
@@ -120,7 +121,7 @@
 
   - Add publish npm task (9585a47)
 
-### ❤️  Contributors
+#### ❤️ Contributors
 
 - Zhong666 <aa900031@gmail.com>
 
