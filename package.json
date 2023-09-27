@@ -2,7 +2,7 @@
 	"name": "@aa900031/eslint-config",
 	"type": "commonjs",
 	"version": "0.2.6",
-	"packageManager": "pnpm@8.7.5",
+	"packageManager": "pnpm@8.8.0",
 	"description": "ESLint config for @aa900031",
 	"author": {
 		"name": "zhong666",
@@ -21,14 +21,14 @@
 		"eslint": "*"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "^0.42.0"
+		"@antfu/eslint-config": "^0.43.1"
 	},
 	"devDependencies": {
-		"@release-it/conventional-changelog": "^7.0.1",
+		"@release-it/conventional-changelog": "^7.0.2",
 		"changelogen": "^0.5.5",
 		"conventional-changelog-unjs": "^0.1.0",
-		"eslint": "^8.49.0",
-		"release-it": "^16.1.5",
+		"eslint": "^8.50.0",
+		"release-it": "^16.2.1",
 		"typescript": "^5.2.2"
 	}
 }
