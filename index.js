@@ -17,10 +17,10 @@ function indentOpts() {
 		'vue/html-indent': ['error', 'tab'],
 		...(hasTs
 			? {
-					'@typescript-eslint/indent': [configTs.rules['@typescript-eslint/indent'][0], 'tab', configTs.rules['@typescript-eslint/indent'][2]],
+					'@stylistic/ts/indent': [configTs.rules['@stylistic/ts/indent'][0], 'tab', configTs.rules['@stylistic/ts/indent'][2]],
 				}
 			: {
-					indent: [configBasic.rules.indent[0], 'tab', configBasic.rules.indent[2]],
+					'@stylistic/js/indent': [configBasic.rules['@stylistic/js/indent'][0], 'tab', configBasic.rules['@stylistic/js/indent'][2]],
 				}),
 	}
 }
@@ -29,8 +29,8 @@ function indentOpts() {
 module.exports = {
 	extends: '@antfu',
 	rules: {
-		'no-tabs': 0,
-		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
+		'@stylistic/js/no-tabs': 0,
+		'@stylistic/js/no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		...indentOpts(),
 	},
 }
