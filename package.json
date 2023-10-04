@@ -27,6 +27,7 @@
 	},
 	"scripts": {
 		"dev": "unbuild --stub & eslint-flat-config-viewer",
+		"build": "unbuild",
 		"lint": "eslint .",
 		"release": "release-it --ci"
 	},
@@ -34,7 +35,9 @@
 		"eslint": ">=8.0.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "1.0.0-beta.18"
+		"@antfu/eslint-config": "1.0.0-beta.18",
+		"defu": "^6.1.2",
+		"eslint-plugin-case-police": "^0.6.1"
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
