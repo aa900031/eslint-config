@@ -1,6 +1,6 @@
 {
 	"name": "@aa900031/eslint-config",
-	"type": "commonjs",
+	"type": "module",
 	"version": "0.2.7",
 	"packageManager": "pnpm@8.8.0",
 	"description": "ESLint config for @aa900031",
@@ -9,26 +9,42 @@
 		"email": "aa900031@gmail.com"
 	},
 	"license": "MIT",
-	"main": "index.js",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
 	"files": [
-		"index.js"
+		"dist"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
+		"dev": "unbuild --stub & eslint-flat-config-viewer",
 		"lint": "eslint .",
 		"release": "release-it --ci"
 	},
 	"peerDependencies": {
-		"eslint": "*"
+		"eslint": ">=8.0.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "^0.43.1"
+		"@antfu/eslint-config": "1.0.0-beta.18"
 	},
 	"devDependencies": {
+		"@aa900031/eslint-config": "workspace:*",
 		"@release-it/conventional-changelog": "^7.0.2",
 		"changelogen": "^0.5.5",
 		"conventional-changelog-unjs": "^0.1.0",
 		"eslint": "^8.50.0",
+		"eslint-flat-config-viewer": "^0.0.8",
 		"release-it": "^16.2.1",
-		"typescript": "^5.2.2"
+		"typescript": "^5.2.2",
+		"unbuild": "^2.0.0"
 	}
 }
