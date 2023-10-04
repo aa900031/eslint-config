@@ -1,10 +1,7 @@
-import type { FlatESLintConfigItem } from '@antfu/eslint-config'
 import { stylistic } from '@antfu/eslint-config'
+import type { ConfigFactoryResult } from '../config'
 
-export function indent(): {
-	configs: FlatESLintConfigItem[]
-	overrides: NonNullable<FlatESLintConfigItem['rules']>
-} {
+export function indent(): ConfigFactoryResult {
 	const _stylistic = stylistic()
 	const ruleIndent = _stylistic[0].rules?.['style/indent']
 

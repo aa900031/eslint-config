@@ -1,9 +1,7 @@
-import type { FlatESLintConfigItem } from '@antfu/eslint-config'
 import pluginCasePolice from 'eslint-plugin-case-police'
+import type { ConfigFactoryResult } from '../config'
 
-export function typo(): {
-	configs: FlatESLintConfigItem[]
-} {
+export function typo(): ConfigFactoryResult {
 	return {
 		configs: [
 			{

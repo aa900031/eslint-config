@@ -1,31 +1,23 @@
-import { defu } from 'defu'
-import type { FlatESLintConfigItem, OptionsConfig } from '@antfu/eslint-config'
-import { antfu } from '@antfu/eslint-config'
-import { indent } from './configs/indent'
-import { typo } from './configs/typo'
+import type { FlatESLintConfigItem } from '@antfu/eslint-config'
 
-export type Options =
-	& OptionsConfig
+export interface ConfigFactoryResult {
+	configs: FlatESLintConfigItem[]
+	overrides?: FlatESLintConfigItem['rules']
+}
 
-export function aa900031(
-	options: Options = {},
+export function resolveConfigs(
+	...args: ConfigFactoryResult[]
 ) {
 	const configs: FlatESLintConfigItem[][] = []
-	const overrides: Record<string, FlatESLintConfigItem['rules']>[] = []
+	const overrides: Record<string, NonNullable<FlatESLintConfigItem['rules']>>[] = []
 
-	const _indent = indent()
-	configs.push(_indent.configs)
-	overrides.push(_indent.overrides)
+	for (const config of args) {
+		configs.push(config.configs)
+		config.overrides && overrides.push(config.overrides)
+	}
 
-	const _typo = typo()
-	configs.push(_typo.configs)
-
-	options = defu(options, {
-		overrides: defu(options.overrides, ...overrides),
-	})
-
-	return antfu(
-		options,
-		...configs,
-	)
+	return {
+		configs,
+		overrides,
+	}
 }
