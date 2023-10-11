@@ -4,6 +4,7 @@ import defu from 'defu'
 import { resolveConfigs } from './config'
 import { indent } from './configs/indent'
 import { typo } from './configs/typo'
+import { progress } from './configs/progress'
 
 export type Options =
 	& OptionsConfig
@@ -17,6 +18,7 @@ export function aa900031(
 	} = resolveConfigs(
 		indent(),
 		typo(),
+		progress(),
 	)
 
 	options = defu(options, {
