@@ -1,4 +1,4 @@
-import type { FlatESLintConfigItem, OptionsConfig } from '@antfu/eslint-config'
+import type { ConfigItem, OptionsConfig } from '@antfu/eslint-config'
 import antfu from '@antfu/eslint-config'
 import defu from 'defu'
 import { resolveConfigs } from './config'
@@ -10,7 +10,7 @@ export type Options =
 
 export function aa900031(
 	options: Options = {},
-): FlatESLintConfigItem[] {
+): ConfigItem[] {
 	const {
 		configs,
 		overrides,
