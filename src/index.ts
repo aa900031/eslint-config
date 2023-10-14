@@ -12,22 +12,15 @@ export type Options =
 export function aa900031(
 	options: Options = {},
 ): ConfigItem[] {
-	const {
-		configs,
-		overrides,
-	} = resolveConfigs(
+	const config = resolveConfigs(
 		indent(),
 		typo(),
 		progress(),
 	)
 
-	options = defu(options, {
-		overrides: defu(options.overrides, ...overrides),
-	})
-
 	return antfu(
-		options,
-		...configs,
+		defu({}, ...config.options, options),
+		...config.configs,
 	)
 }
 

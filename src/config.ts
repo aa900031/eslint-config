@@ -1,28 +1,28 @@
-import type { ConfigItem } from '@antfu/eslint-config'
+import type { ConfigItem, OptionsConfig } from '@antfu/eslint-config'
 
 export interface ConfigFactoryResult {
-	configs: ConfigItem[]
-	overrides?: ConfigItem['rules']
+	configs?: ConfigItem[]
+	options?: OptionsConfig
 }
 
 export interface ResolvedConfigs {
 	configs: ConfigItem[][]
-	overrides: Record<string, NonNullable<ConfigItem['rules']>>[]
+	options: OptionsConfig[]
 }
 
 export function resolveConfigs(
 	...args: ConfigFactoryResult[]
 ): ResolvedConfigs {
 	const configs: ResolvedConfigs['configs'] = []
-	const overrides: ResolvedConfigs['overrides'] = []
+	const options: ResolvedConfigs['options'] = []
 
 	for (const config of args) {
-		configs.push(config.configs)
-		config.overrides && overrides.push(config.overrides as any)
+		config.configs && configs.push(config.configs)
+		config.options && options.push(config.options)
 	}
 
 	return {
 		configs,
-		overrides,
+		options,
 	}
 }
