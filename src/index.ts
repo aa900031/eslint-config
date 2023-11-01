@@ -11,6 +11,7 @@ export type Options =
 
 export function aa900031(
 	options: Options = {},
+	...userConfigs: (ConfigItem | ConfigItem[])[]
 ): ConfigItem[] {
 	const config = resolveConfigs(
 		indent(),
@@ -21,6 +22,7 @@ export function aa900031(
 	return antfu(
 		defu({}, ...config.options, options),
 		...config.configs,
+		...userConfigs,
 	)
 }
 
