@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v0.2.7...v1.0.0)
+
+### 🚀 Enhancements
+
+-  ⚠️ Eslint flat config (#8) ([c54d07b](https://github.com/aa900031/eslint-config/commit/c54d07bb62f8ba26bf48035fae8472843477e805))
+
+### 🏡 Chore
+
+-  **ci:** Build dist ([7bf3a6e](https://github.com/aa900031/eslint-config/commit/7bf3a6e437ce96a497ff2ceecadfa692c04849d4))
+-  **deps:** Update actions/setup-node action to v4 ([cbe1843](https://github.com/aa900031/eslint-config/commit/cbe1843e94952c6324b163b661bd1e96bb0b8c9d))
+-  **deps:** Update all non-major dependencies ([cd87f25](https://github.com/aa900031/eslint-config/commit/cd87f25644251b943db673290e74a1d527bdd5de))
+-  **deps:** Update all non-major dependencies (#12) ([dd14fc1](https://github.com/aa900031/eslint-config/commit/dd14fc1063e639ae4bbd4b54fe80b44a4f1e825b))
+-  Tsconfig ([b6c53cb](https://github.com/aa900031/eslint-config/commit/b6c53cb05bfccd064ef4ea182840062399b34559))
+
+
+### ⚠️ Breaking Changes
+
+-  eslint flat config (#8) ([c54d07b](https://github.com/aa900031/eslint-config/commit/c54d07bb62f8ba26bf48035fae8472843477e805))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v0.2.7
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v0.2.6...v0.2.7)
