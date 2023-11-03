@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+
+## v1.0.2
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.0.1...v1.0.2)
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#13) ([1e7bfa3](https://github.com/aa900031/eslint-config/commit/1e7bfa35a44d3dfb9ec13bdf4fe2393b05c4a4d1))
+-  Not need custom rules for indent ([915591a](https://github.com/aa900031/eslint-config/commit/915591a5d65fde89b9ae5f18988267c9a230a65c))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.0.1
 
 
