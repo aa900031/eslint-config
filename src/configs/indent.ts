@@ -6,14 +6,6 @@ export function indent(): ConfigFactoryResult {
 			stylistic: {
 				indent: 'tab',
 			},
-			overrides: {
-				vue: {
-					'vue/html-indent': ['error', 'tab'],
-				},
-				jsonc: {
-					'jsonc/indent': ['error', 'tab'],
-				},
-			},
 		},
 	}
 }
