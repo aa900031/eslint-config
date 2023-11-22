@@ -1,6 +1,6 @@
 import type { ConfigFactoryResult } from '../config'
 
-export function indent(): ConfigFactoryResult {
+export async function indent(): Promise<ConfigFactoryResult> {
 	return {
 		options: {
 			stylistic: {
