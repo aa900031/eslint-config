@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.1.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.0.2...v1.1.0)
+
+### 🩹 Fixes
+
+-  Pnpm workspace empty ([f58700b](https://github.com/aa900031/eslint-config/commit/f58700b65f610247e26c7f1108cfc046616fc78e))
+
+### 💅 Refactors
+
+-  Use antfu/eslint-config v2 ([8fb7166](https://github.com/aa900031/eslint-config/commit/8fb7166f9c09a4ec8c211f4a108cee354fee9a21))
+
+### 🏡 Chore
+
+-  Add vscode setting ([47a0cd8](https://github.com/aa900031/eslint-config/commit/47a0cd8cfed912f0b970604bf4fa6ae99d455391))
+-  **deps:** Fix pnpm not resolve itself ([42d37f4](https://github.com/aa900031/eslint-config/commit/42d37f444b89540eb0fe13389577a107f8cec046))
+-  **deps:** Remove unused deps ([0d95fdb](https://github.com/aa900031/eslint-config/commit/0d95fdbdf0a1235a223ab65be1da6848631ec713))
+-  **deps:** Update all non-major dependencies (#14) ([8ef0b1a](https://github.com/aa900031/eslint-config/commit/8ef0b1a9957d382fc2508a9078711bd397f75d8f))
+-  **deps:** Update all non-major dependencies (#15) ([4e918af](https://github.com/aa900031/eslint-config/commit/4e918af888fd23bb7713cb50a58df01b1e0b05ae))
+-  **deps:** Update all non-major dependencies (#16) ([c60ab97](https://github.com/aa900031/eslint-config/commit/c60ab97c0e329189ba92070f93b16154198437fb))
+-  Update renovate.json ([c3a3e1a](https://github.com/aa900031/eslint-config/commit/c3a3e1a050efa0c9ed97deff1ab270dab618c937))
+
+
+
+#### ❤️ Contributors
+
+- Renovate[bot] 
+- Zhong666 <aa900031@gmail.com>
+
 ## v1.0.2
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.0.1...v1.0.2)
