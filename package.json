@@ -2,7 +2,7 @@
 	"name": "@aa900031/eslint-config",
 	"type": "module",
 	"version": "1.1.0",
-	"packageManager": "pnpm@8.12.1",
+	"packageManager": "pnpm@8.14.1",
 	"description": "ESLint config for @aa900031",
 	"author": {
 		"name": "zhong666",
@@ -35,8 +35,8 @@
 		"eslint": ">=8.0.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "2.4.6",
-		"defu": "^6.1.3",
+		"@antfu/eslint-config": "2.6.2",
+		"defu": "^6.1.4",
 		"eslint-plugin-case-police": "^0.6.1",
 		"eslint-plugin-file-progress": "^1.3.0"
 	},
@@ -44,10 +44,10 @@
 		"@aa900031/eslint-config": "workspace:*",
 		"@release-it/conventional-changelog": "^7.0.2",
 		"@tsconfig/node18": "^18.2.2",
-		"@types/node": "^18.19.3",
-		"conventional-changelog-unjs": "^0.1.0",
+		"@types/node": "^18.19.7",
+		"conventional-changelog-unjs": "^0.1.1",
 		"eslint": "^8.56.0",
-		"eslint-flat-config-viewer": "^0.1.3",
+		"eslint-flat-config-viewer": "^0.1.11",
 		"release-it": "^16.3.0",
 		"typescript": "^5.3.3",
 		"unbuild": "^2.0.0"
