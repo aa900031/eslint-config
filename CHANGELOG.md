@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.1.1
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.1.0...v1.1.1)
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#17) ([dfa3b58](https://github.com/aa900031/eslint-config/commit/dfa3b587a85de76506cd9f0d7a00750589fe171e))
+
+
+
+#### ❤️ Contributors
+
+- Renovate[bot]
+
 ## v1.1.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.0.2...v1.1.0)
