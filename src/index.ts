@@ -5,6 +5,9 @@ import { resolveConfigs } from './config'
 import { indent } from './configs/indent'
 import { typo } from './configs/typo'
 import { progress } from './configs/progress'
+import { unocss } from './configs/unocss'
+import { svelte } from './configs/svelte'
+import { react } from './configs/react'
 
 export type Options =
 	& OptionsConfig
@@ -17,6 +20,9 @@ export async function aa900031(
 		indent(),
 		typo(),
 		progress(),
+		react(options),
+		svelte(options),
+		unocss(options),
 	)
 
 	return await antfu(
