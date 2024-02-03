@@ -2,7 +2,7 @@
 	"name": "@aa900031/eslint-config",
 	"type": "module",
 	"version": "1.2.0",
-	"packageManager": "pnpm@8.14.1",
+	"packageManager": "pnpm@8.15.1",
 	"description": "ESLint config for @aa900031",
 	"author": {
 		"name": "zhong666",
@@ -35,7 +35,7 @@
 		"eslint": ">=8.0.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "2.6.2",
+		"@antfu/eslint-config": "2.6.4",
 		"defu": "^6.1.4",
 		"eslint-plugin-case-police": "^0.6.1",
 		"eslint-plugin-file-progress": "^1.3.0",
@@ -45,7 +45,7 @@
 		"@aa900031/eslint-config": "workspace:*",
 		"@release-it/conventional-changelog": "^7.0.2",
 		"@tsconfig/node18": "^18.2.2",
-		"@types/node": "^18.19.7",
+		"@types/node": "^18.19.14",
 		"conventional-changelog-unjs": "^0.1.1",
 		"eslint": "^8.56.0",
 		"eslint-flat-config-viewer": "^0.1.11",
