@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.3.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.2.0...v1.3.0)
+
+### 🚀 Enhancements
+
+-  Auto detect vue version ([1046025](https://github.com/aa900031/eslint-config/commit/1046025c988b937497dd3570e619d742bda58924))
+
+### 📖 Documentation
+
+-  Update README ([1f6cff9](https://github.com/aa900031/eslint-config/commit/1f6cff97f993bdd47f583798ba35f07e435f67f6))
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#18) ([7a43b19](https://github.com/aa900031/eslint-config/commit/7a43b19e088ab7856b611b03b36263f11c7ff1da))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.2.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.1.1...v1.2.0)
