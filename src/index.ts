@@ -8,6 +8,7 @@ import { progress } from './configs/progress'
 import { unocss } from './configs/unocss'
 import { svelte } from './configs/svelte'
 import { react } from './configs/react'
+import { vue } from './configs/vue'
 
 export type Options =
 	& OptionsConfig
@@ -23,6 +24,7 @@ export async function aa900031(
 		react(options),
 		svelte(options),
 		unocss(options),
+		vue(options),
 	)
 
 	return await antfu(
