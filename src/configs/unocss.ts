@@ -2,9 +2,9 @@ import type { OptionsConfig } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
 import { isPackagesExists } from '../utils'
 
-export async function unocss(
+export function unocss(
 	options: OptionsConfig,
-): Promise<ConfigFactoryResult> {
+): ConfigFactoryResult {
 	return {
 		options: {
 			unocss: options.unocss

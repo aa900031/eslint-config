@@ -1,22 +1,22 @@
-import type { OptionsConfig, UserConfigItem } from '@antfu/eslint-config'
+import type { OptionsConfig, TypedFlatConfigItem } from '@antfu/eslint-config'
 
 export interface ConfigFactoryResult {
-	configs?: UserConfigItem[]
+	configs?: TypedFlatConfigItem[]
 	options?: OptionsConfig
 }
 
 export interface ResolvedConfigs {
-	configs: UserConfigItem[][]
+	configs: TypedFlatConfigItem[][]
 	options: OptionsConfig[]
 }
 
-export async function resolveConfigs(
-	...args: (ConfigFactoryResult | Promise<ConfigFactoryResult>)[]
-): Promise<ResolvedConfigs> {
+export function resolveConfigs(
+	...args: ConfigFactoryResult[]
+): ResolvedConfigs {
 	const configs: ResolvedConfigs['configs'] = []
 	const options: ResolvedConfigs['options'] = []
 
-	for (const config of await Promise.all(args)) {
+	for (const config of args) {
 		config.configs && configs.push(config.configs)
 		config.options && options.push(config.options)
 	}

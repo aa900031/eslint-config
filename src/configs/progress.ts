@@ -1,7 +1,7 @@
 import pluginFileProgress from 'eslint-plugin-file-progress'
 import type { ConfigFactoryResult } from '../config'
 
-export async function progress(): Promise<ConfigFactoryResult> {
+export function progress(): ConfigFactoryResult {
 	return {
 		configs: [
 			{

@@ -2,9 +2,9 @@ import type { OptionsConfig } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
 import { isPackagesExists } from '../utils'
 
-export async function svelte(
+export function svelte(
 	options: OptionsConfig,
-): Promise<ConfigFactoryResult> {
+): ConfigFactoryResult {
 	return {
 		options: {
 			svelte: options.svelte

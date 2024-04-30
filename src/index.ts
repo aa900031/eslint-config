@@ -1,6 +1,8 @@
 import defu from 'defu'
-import type { OptionsConfig, UserConfigItem } from '@antfu/eslint-config'
+import type { Awaitable, ConfigNames, OptionsConfig, TypedFlatConfigItem } from '@antfu/eslint-config'
 import antfu from '@antfu/eslint-config'
+import type { FlatConfigComposer } from 'eslint-flat-config-utils'
+import type { Linter } from 'eslint'
 import { resolveConfigs } from './config'
 import { indent } from './configs/indent'
 import { typo } from './configs/typo'
@@ -9,15 +11,18 @@ import { unocss } from './configs/unocss'
 import { svelte } from './configs/svelte'
 import { react } from './configs/react'
 import { vue } from './configs/vue'
+import { astro } from './configs/astro'
+import { solid } from './configs/solid'
 
 export type Options =
 	& OptionsConfig
+	& TypedFlatConfigItem
 
-export async function aa900031(
+export function aa900031(
 	options: Options = {},
-	...userConfigs: (UserConfigItem | UserConfigItem[])[]
-): Promise<UserConfigItem[]> {
-	const config = await resolveConfigs(
+	...userConfigs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[] | FlatConfigComposer<any, any> | Linter.FlatConfig[]>[]
+): FlatConfigComposer<TypedFlatConfigItem, ConfigNames> {
+	const config = resolveConfigs(
 		indent(),
 		typo(),
 		progress(),
@@ -25,9 +30,11 @@ export async function aa900031(
 		svelte(options),
 		unocss(options),
 		vue(options),
+		astro(options),
+		solid(options),
 	)
 
-	return await antfu(
+	return antfu(
 		defu({}, ...config.options, options),
 		...config.configs,
 		...userConfigs,

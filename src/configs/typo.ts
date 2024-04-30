@@ -1,7 +1,7 @@
 import pluginCasePolice from 'eslint-plugin-case-police'
 import type { ConfigFactoryResult } from '../config'
 
-export async function typo(): Promise<ConfigFactoryResult> {
+export function typo(): ConfigFactoryResult {
 	return {
 		configs: [
 			{

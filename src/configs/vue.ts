@@ -4,9 +4,9 @@ import type { OptionsConfig, OptionsVue } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
 import { getPackageInfoSync, isPackagesExists } from '../utils'
 
-export async function vue(
+export function vue(
 	options: OptionsConfig,
-): Promise<ConfigFactoryResult> {
+): ConfigFactoryResult {
 	const enabled = options.vue
 		?? isPackagesExists([
 			'vue',
