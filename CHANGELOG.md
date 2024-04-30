@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.4.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.3.0...v1.4.0)
+
+### 🩹 Fixes
+
+-  Add externals to unbuild config ([f48dac6](https://github.com/aa900031/eslint-config/commit/f48dac6f325e659dc79987c3b7c65e7aa9835b30))
+
+### 🏡 Chore
+
+-  ⚠️ @antfu/eslint-config ([f002635](https://github.com/aa900031/eslint-config/commit/f002635d8241106c53a47253428b425dd84dd7bd))
+-  **deps:** Update all non-major dependencies (#19) ([c0347ad](https://github.com/aa900031/eslint-config/commit/c0347ad5c2109d891223cd2d5b88a0d54304304a))
+-  **deps:** Update all non-major dependencies (#20) ([9da3482](https://github.com/aa900031/eslint-config/commit/9da348234ff973e5634cca7fa9c4d69598b18c08))
+-  **deps:** Update dependency @antfu/eslint-config to v2.16.1 (#21) ([5b53c13](https://github.com/aa900031/eslint-config/commit/5b53c13ec04fd802430aed2b5503602858a1619c))
+-  Update @eslint/config-inspector ([34def3f](https://github.com/aa900031/eslint-config/commit/34def3f135d02812d139356d69a802abb3b4f957))
+
+
+### ⚠️ Breaking Changes
+
+-  @antfu/eslint-config ([f002635](https://github.com/aa900031/eslint-config/commit/f002635d8241106c53a47253428b425dd84dd7bd))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.3.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.2.0...v1.3.0)
