@@ -35,7 +35,7 @@
 		"eslint": ">=8.0.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "2.21.0",
+		"@antfu/eslint-config": "2.22.3",
 		"defu": "^6.1.4",
 		"eslint-plugin-case-police": "^0.6.1",
 		"eslint-plugin-file-progress": "^1.4.0",
@@ -45,15 +45,15 @@
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
-		"@eslint/config-inspector": "^0.4.10",
+		"@eslint/config-inspector": "^0.5.1",
 		"@release-it/conventional-changelog": "^7.0.2",
 		"@tsconfig/node18": "^18.2.4",
-		"@types/node": "^18.19.34",
+		"@types/node": "^18.19.39",
 		"@types/semver": "^7.5.8",
 		"conventional-changelog-unjs": "^0.1.1",
 		"eslint": "^8.57.0",
 		"release-it": "^16.3.0",
-		"typescript": "^5.4.5",
+		"typescript": "^5.5.3",
 		"unbuild": "^2.0.0"
 	}
 }
