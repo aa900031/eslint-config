@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.5.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.4.0...v1.5.0)
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#22) ([77c3654](https://github.com/aa900031/eslint-config/commit/77c36544c07c6d0b490fa3b838bd81979eada6d1))
+-  **deps:** Update all non-major dependencies (#23) ([4fee510](https://github.com/aa900031/eslint-config/commit/4fee510f4970df36f6f38b66bbd958d85110b502))
+-  Lint format ([80b578f](https://github.com/aa900031/eslint-config/commit/80b578f6393d8bc1b790298b79b0e07abb9d3da7))
+-  Upgrade deps ([6562c5c](https://github.com/aa900031/eslint-config/commit/6562c5c1d448d4c6aa5c5fff58d70ed768cc1b76))
+-  Upgrade eslint to v9 ([7659a97](https://github.com/aa900031/eslint-config/commit/7659a97c223583d19322c2c359320d5788043e67))
+-  Upgrade pnpm to v9 ([579e20f](https://github.com/aa900031/eslint-config/commit/579e20fc8937b9eeaaafecc52f3b2ce8b8bcdc77))
+-  Upgrade release-it to v17 ([9f66161](https://github.com/aa900031/eslint-config/commit/9f661610297739c13b5ed40391a51c5cda91d0a5))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.4.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.3.0...v1.4.0)
