@@ -17,8 +17,10 @@ export function resolveConfigs(
 	const options: ResolvedConfigs['options'] = []
 
 	for (const config of args) {
-		config.configs && configs.push(config.configs)
-		config.options && options.push(config.options)
+		if (config.configs)
+			configs.push(config.configs)
+		if (config.options)
+			options.push(config.options)
 	}
 
 	return {
