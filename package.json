@@ -46,13 +46,13 @@
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
 		"@eslint/config-inspector": "^0.5.1",
-		"@release-it/conventional-changelog": "^7.0.2",
+		"@release-it/conventional-changelog": "^8.0.1",
 		"@tsconfig/node18": "^18.2.4",
 		"@types/node": "^18.19.39",
 		"@types/semver": "^7.5.8",
 		"conventional-changelog-unjs": "^0.1.1",
 		"eslint": "^9.7.0",
-		"release-it": "^16.3.0",
+		"release-it": "^17.6.0",
 		"typescript": "^5.5.3",
 		"unbuild": "^2.0.0"
 	}
