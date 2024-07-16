@@ -51,7 +51,7 @@
 		"@types/node": "^18.19.39",
 		"@types/semver": "^7.5.8",
 		"conventional-changelog-unjs": "^0.1.1",
-		"eslint": "^8.57.0",
+		"eslint": "^9.7.0",
 		"release-it": "^16.3.0",
 		"typescript": "^5.5.3",
 		"unbuild": "^2.0.0"
