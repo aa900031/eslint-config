@@ -6,7 +6,7 @@ import type { PackageInfo } from 'local-pkg'
 export function isPackagesExists(
 	pkgs: string[],
 	strict = true,
-) {
+): boolean {
 	if (strict)
 		return pkgs.every(pkg => resolvePkg(pkg))
 	else
