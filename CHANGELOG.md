@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.6.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.5.0...v1.6.0)
+
+### 🚀 Enhancements
+
+-  Use lib type ([1d4169b](https://github.com/aa900031/eslint-config/commit/1d4169b9df6a85b0c52165bcd8cf36b2f6b569a4))
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#24) ([74f310b](https://github.com/aa900031/eslint-config/commit/74f310bcc48e9d8bf5930b4720625827636a91e5))
+-  Lint format ([0ce6bd9](https://github.com/aa900031/eslint-config/commit/0ce6bd9c10eac8dd7dafbdceeee19a4bc47048ba))
+-  Update config ([edd6c8b](https://github.com/aa900031/eslint-config/commit/edd6c8b91f553df0adc520b15b15943c58445723))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.5.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.4.0...v1.5.0)
