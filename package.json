@@ -35,7 +35,7 @@
 		"eslint": ">=8.0.0"
 	},
 	"dependencies": {
-		"@antfu/eslint-config": "2.23.2",
+		"@antfu/eslint-config": "2.24.1",
 		"defu": "^6.1.4",
 		"eslint-plugin-case-police": "^0.6.1",
 		"eslint-plugin-file-progress": "^1.4.0",
@@ -48,10 +48,10 @@
 		"@eslint/config-inspector": "^0.5.2",
 		"@release-it/conventional-changelog": "^8.0.1",
 		"@tsconfig/node18": "^18.2.4",
-		"@types/node": "^18.19.41",
+		"@types/node": "^18.19.42",
 		"@types/semver": "^7.5.8",
-		"conventional-changelog-unjs": "^0.1.1",
-		"eslint": "^9.7.0",
+		"conventional-changelog-unjs": "^0.1.2",
+		"eslint": "^9.8.0",
 		"release-it": "^17.6.0",
 		"typescript": "^5.5.4",
 		"unbuild": "^2.0.0"
