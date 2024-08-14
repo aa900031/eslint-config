@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v1.8.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.7.0...v1.8.0)
+
+### 🚀 Enhancements
+
+-  Hide progress in editor ([7ab2f77](https://github.com/aa900031/eslint-config/commit/7ab2f775d4418e5ca8dc1aede5845f7902b4b1d9))
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#26) ([fef0075](https://github.com/aa900031/eslint-config/commit/fef0075b1727f0e0b9c3781cedb13588a62c4118))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v1.7.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.6.0...v1.7.0)
