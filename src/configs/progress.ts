@@ -1,7 +1,16 @@
 import pluginFileProgress from 'eslint-plugin-file-progress'
+import type { OptionsConfig } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
 
-export function progress(): ConfigFactoryResult {
+export function progress(
+	options: OptionsConfig,
+): ConfigFactoryResult {
+	const {
+		isInEditor,
+	} = options
+
+	const isActive = !(isInEditor === true)
+
 	return {
 		configs: [
 			{
@@ -10,7 +19,7 @@ export function progress(): ConfigFactoryResult {
 					progress: pluginFileProgress,
 				},
 				rules: {
-					'progress/activate': 1,
+					'progress/activate': isActive ? 1 : 0,
 				},
 			},
 		],

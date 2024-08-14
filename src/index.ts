@@ -1,6 +1,6 @@
 import defu from 'defu'
 import type { Awaitable, ConfigNames, OptionsConfig, TypedFlatConfigItem } from '@antfu/eslint-config'
-import antfu from '@antfu/eslint-config'
+import antfu, { isInEditorEnv } from '@antfu/eslint-config'
 import type { FlatConfigComposer } from 'eslint-flat-config-utils'
 import type { Linter } from 'eslint'
 import { resolveConfigs } from './config'
@@ -22,10 +22,12 @@ export function aa900031(
 	options: Options = {},
 	...userConfigs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[] | FlatConfigComposer<any, any> | Linter.FlatConfig[]>[]
 ): FlatConfigComposer<TypedFlatConfigItem, ConfigNames> {
+	options.isInEditor ??= isInEditorEnv()
+
 	const config = resolveConfigs(
 		indent(),
 		typo(),
-		progress(),
+		progress(options),
 		react(options),
 		svelte(options),
 		unocss(options),
