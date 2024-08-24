@@ -26,7 +26,9 @@
 		"access": "public"
 	},
 	"scripts": {
-		"dev": "unbuild --stub & eslint-config-inspector",
+		"dev": "run-s dev:*",
+		"dev:build": "unbuild --stub",
+		"dev:ui": "eslint-config-inspector",
 		"build": "unbuild",
 		"lint": "eslint .",
 		"release": "release-it --ci"
@@ -52,6 +54,7 @@
 		"@types/semver": "^7.5.8",
 		"conventional-changelog-unjs": "^0.1.2",
 		"eslint": "^9.9.1",
+		"npm-run-all2": "^6.2.2",
 		"release-it": "^17.6.0",
 		"typescript": "^5.5.4",
 		"unbuild": "^2.0.0"
