@@ -8,9 +8,9 @@ export function svelte(
 	return {
 		options: {
 			svelte: options.svelte
-			?? isPackagesExists([
-				'eslint-plugin-svelte',
-			]),
+				?? isPackagesExists([
+					'eslint-plugin-svelte',
+				]),
 		},
 	}
 }

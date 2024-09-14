@@ -8,11 +8,11 @@ export function astro(
 	return {
 		options: {
 			astro: options.astro
-			?? isPackagesExists([
-				'eslint-plugin-astro',
-				'astro-eslint-parser',
-				'@typescript-eslint/parser',
-			]),
+				?? isPackagesExists([
+					'eslint-plugin-astro',
+					'astro-eslint-parser',
+					'@typescript-eslint/parser',
+				]),
 		},
 	}
 }

@@ -8,11 +8,11 @@ export function react(
 	return {
 		options: {
 			react: options.react
-			?? isPackagesExists([
-				'@eslint-react/eslint-plugin',
-				'eslint-plugin-react-hooks',
-				'eslint-plugin-react-refresh',
-			]),
+				?? isPackagesExists([
+					'@eslint-react/eslint-plugin',
+					'eslint-plugin-react-hooks',
+					'eslint-plugin-react-refresh',
+				]),
 		},
 	}
 }

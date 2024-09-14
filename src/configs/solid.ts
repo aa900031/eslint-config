@@ -8,9 +8,9 @@ export function solid(
 	return {
 		options: {
 			solid: options.solid
-			?? isPackagesExists([
-				'eslint-plugin-solid',
-			]),
+				?? isPackagesExists([
+					'eslint-plugin-solid',
+				]),
 		},
 	}
 }

@@ -1,7 +1,7 @@
-import defu from 'defu'
-import { major } from 'semver'
 import type { OptionsConfig, OptionsVue } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
+import defu from 'defu'
+import { major } from 'semver'
 import { getPackageInfoSync, isPackagesExists } from '../utils'
 
 export function vue(

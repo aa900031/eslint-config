@@ -8,9 +8,9 @@ export function unocss(
 	return {
 		options: {
 			unocss: options.unocss
-			?? isPackagesExists([
-				'@unocss/eslint-plugin',
-			]),
+				?? isPackagesExists([
+					'@unocss/eslint-plugin',
+				]),
 		},
 	}
 }

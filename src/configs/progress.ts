@@ -1,6 +1,6 @@
-import pluginFileProgress from 'eslint-plugin-file-progress'
 import type { OptionsConfig } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
+import pluginFileProgress from 'eslint-plugin-file-progress'
 
 export function progress(
 	options: OptionsConfig,
