@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v2.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v1.9.1...v2.0.0)
+
+### 🏡 Chore
+
+-  **deps:** ⚠️ Update antfu/eslint-config to v3 ([2111e26](https://github.com/aa900031/eslint-config/commit/2111e2607473210783944b9e607136de8c06fbdc))
+
+### 🎨 Styles
+
+-  Lint format ([aee9306](https://github.com/aa900031/eslint-config/commit/aee93068838b5e9a912162de23590015a912d7ad))
+
+
+### ⚠️ Breaking Changes
+
+-  **deps:** update antfu/eslint-config to v3 ([2111e26](https://github.com/aa900031/eslint-config/commit/2111e2607473210783944b9e607136de8c06fbdc))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v1.9.1
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.9.0...v1.9.1)
