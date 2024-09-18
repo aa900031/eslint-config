@@ -61,7 +61,7 @@ importers:
         specifier: ^17.6.0
         version: 17.6.0(typescript@5.5.4)
       typescript:
-        specifier: ^5.5.4
+        specifier: ~5.5.4
         version: 5.5.4
       unbuild:
         specifier: ^2.0.0
