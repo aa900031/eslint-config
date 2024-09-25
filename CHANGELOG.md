@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v2.1.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v2.0.0...v2.1.0)
+
+### 🏡 Chore
+
+-  **deps:** Downgrade typescript ([ead1e79](https://github.com/aa900031/eslint-config/commit/ead1e79bafc6c74f76f44ed705bd16379b483ae7))
+-  **deps:** Typescript fix minor version ([86e2471](https://github.com/aa900031/eslint-config/commit/86e2471ab94029cf0afd56d1c06258f3ba5b012c))
+-  **deps:** Update npm non-major dependencies (#33) ([55dede6](https://github.com/aa900031/eslint-config/commit/55dede64e8aabd94f922316878f26738284e261f))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v2.0.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v1.9.1...v2.0.0)
