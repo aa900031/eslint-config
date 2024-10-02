@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v2.1.1
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v2.1.0...v2.1.1)
+
+### 🏡 Chore
+
+-  **deps:** Update npm non-major dependencies (#35) ([14ff075](https://github.com/aa900031/eslint-config/commit/14ff07550b39e1279455cc6fe68e662987f85638))
+
+
+
+#### ❤️ Contributors
+
+- Renovate[bot]
+
 ## v2.1.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v2.0.0...v2.1.0)
