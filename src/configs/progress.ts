@@ -1,6 +1,7 @@
 import type { OptionsConfig } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
 import pluginFileProgress from 'eslint-plugin-file-progress'
+import isInCi from 'is-in-ci'
 
 export function progress(
 	options: OptionsConfig,
@@ -8,8 +9,6 @@ export function progress(
 	const {
 		isInEditor,
 	} = options
-
-	const isActive = !(isInEditor === true)
 
 	return {
 		configs: [
@@ -19,7 +18,12 @@ export function progress(
 					progress: pluginFileProgress,
 				},
 				rules: {
-					'progress/activate': isActive ? 1 : 0,
+					'progress/activate': 2,
+				},
+				settings: {
+					progress: {
+						hide: isInCi || isInEditor === true,
+					},
 				},
 			},
 		],
