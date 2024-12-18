@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v2.4.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v2.3.0...v2.4.0)
+
+### 🚀 Enhancements
+
+-  Upgrade eslint-plugin-file-progress and support CI ([8170a5e](https://github.com/aa900031/eslint-config/commit/8170a5ee5c29c0b6998313e95f241031710347a1))
+
+### 🏡 Chore
+
+-  Update dev deps to major version ([b9610ac](https://github.com/aa900031/eslint-config/commit/b9610acaae04e6c2914471a0a66403f1d5354420))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v2.3.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v2.2.0...v2.3.0)
