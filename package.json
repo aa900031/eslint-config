@@ -54,9 +54,9 @@
 		"@types/semver": "^7.5.8",
 		"conventional-changelog-unjs": "^0.1.2",
 		"eslint": "^9.17.0",
-		"npm-run-all2": "^6.2.6",
+		"npm-run-all2": "^7.0.2",
 		"release-it": "^17.10.0",
 		"typescript": "~5.7.2",
-		"unbuild": "^2.0.0"
+		"unbuild": "^3.0.1"
 	}
 }
