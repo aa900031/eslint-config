@@ -42,13 +42,13 @@
 		"eslint-plugin-case-police": "^0.7.2",
 		"eslint-plugin-file-progress": "^3.0.1",
 		"is-in-ci": "^1.0.0",
-		"local-pkg": "^0.5.1",
+		"local-pkg": "^1.0.0",
 		"resolve-pkg": "^2.0.0",
 		"semver": "^7.7.0"
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
-		"@eslint/config-inspector": "^0.7.1",
+		"@eslint/config-inspector": "^1.0.0",
 		"@release-it/conventional-changelog": "^8.0.2",
 		"@tsconfig/node18": "^18.2.4",
 		"@types/node": "^18.19.74",
