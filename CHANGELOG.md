@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v3.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v2.6.0...v3.0.0)
+
+### 🚀 Enhancements
+
+-  ⚠️ Drop CJS build ([2e48ce5](https://github.com/aa900031/eslint-config/commit/2e48ce5dc3aa3fb76d88ff537be6d75d5d6434f2))
+
+### 🏡 Chore
+
+-  **deps:** ⚠️ Update have breaking changes deps ([5be5944](https://github.com/aa900031/eslint-config/commit/5be5944751076a3d63571158f048f1c81341e136))
+-  **deps:** Update npm non-major dependencies (#47) ([8d3570a](https://github.com/aa900031/eslint-config/commit/8d3570ae7a9ced8a98599ccfb433bc5f2edab7c4))
+-  **deps:** Update pnpm to v10 ([08d7cd1](https://github.com/aa900031/eslint-config/commit/08d7cd1a7a6ddaa58c524e958b3a421ba983adf1))
+-  **renovate:** Ignore typescript ([e19cd3c](https://github.com/aa900031/eslint-config/commit/e19cd3c56c08c300b19735c5fa5f5d6bc9d37ba7))
+
+
+### ⚠️ Breaking Changes
+
+-  drop CJS build ([2e48ce5](https://github.com/aa900031/eslint-config/commit/2e48ce5dc3aa3fb76d88ff537be6d75d5d6434f2))
+-  **deps:** update have breaking changes deps ([5be5944](https://github.com/aa900031/eslint-config/commit/5be5944751076a3d63571158f048f1c81341e136))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v2.6.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v2.5.0...v2.6.0)
