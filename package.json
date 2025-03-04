@@ -42,22 +42,22 @@
 		"eslint-plugin-case-police": "^0.7.2",
 		"eslint-plugin-file-progress": "^3.0.1",
 		"is-in-ci": "^1.0.0",
-		"local-pkg": "^1.0.0",
+		"local-pkg": "^1.1.1",
 		"resolve-pkg": "^2.0.0",
-		"semver": "^7.7.0"
+		"semver": "^7.7.1"
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
-		"@eslint/config-inspector": "^1.0.0",
+		"@eslint/config-inspector": "^1.0.1",
 		"@release-it/conventional-changelog": "^8.0.2",
 		"@tsconfig/node18": "^18.2.4",
-		"@types/node": "^18.19.74",
+		"@types/node": "^18.19.79",
 		"@types/semver": "^7.5.8",
 		"conventional-changelog-unjs": "^0.1.2",
-		"eslint": "^9.19.0",
+		"eslint": "^9.21.0",
 		"npm-run-all2": "^7.0.2",
 		"release-it": "^17.11.0",
 		"typescript": "~5.7.3",
-		"unbuild": "^3.3.1"
+		"unbuild": "^3.5.0"
 	}
 }
