@@ -29,7 +29,7 @@
 		"dev:build": "unbuild --stub",
 		"dev:ui": "eslint-config-inspector",
 		"build": "unbuild",
-		"lint": "eslint .",
+		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
 		"release": "release-it --ci"
 	},
 	"peerDependencies": {
@@ -48,11 +48,11 @@
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
 		"@eslint/config-inspector": "^1.0.2",
-		"@release-it/conventional-changelog": "^8.0.2",
+		"@release-it/conventional-changelog": "^9.0.4",
 		"@tsconfig/node18": "^18.2.4",
 		"@types/node": "^18.19.80",
 		"@types/semver": "^7.5.8",
-		"conventional-changelog-unjs": "^0.1.2",
+		"conventional-changelog-unjs": "^1.0.0",
 		"eslint": "^9.22.0",
 		"npm-run-all2": "^7.0.2",
 		"release-it": "^17.11.0",
