@@ -50,11 +50,11 @@
 		"@aa900031/release-it-config": "^0.1.0",
 		"@eslint/config-inspector": "^1.0.2",
 		"@tsconfig/node18": "^18.2.4",
-		"@types/node": "^18.19.86",
+		"@types/node": "^18.19.103",
 		"@types/semver": "^7.7.0",
-		"eslint": "^9.24.0",
+		"eslint": "^9.27.0",
 		"npm-run-all2": "^7.0.2",
-		"release-it": "^19.0.1",
+		"release-it": "^19.0.2",
 		"typescript": "~5.8.2",
 		"unbuild": "^3.5.0"
 	}
