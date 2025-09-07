@@ -14,9 +14,9 @@ import { typo } from './configs/typo'
 import { unocss } from './configs/unocss'
 import { vue } from './configs/vue'
 
-export type Options =
-	& OptionsConfig
-	& TypedFlatConfigItem
+export type Options
+	= & OptionsConfig
+		& TypedFlatConfigItem
 
 export function aa900031(
 	options: Options = {},
