@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v3.2.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v3.1.0...v3.2.0)
+
+### 🏡 Chore
+
+-  Add LICENSE ([9d6d487](https://github.com/aa900031/eslint-config/commit/9d6d4873347f9e6f42c87fe62f9ed0c0e477eba1))
+-  Add shields ([7b270dd](https://github.com/aa900031/eslint-config/commit/7b270dd58f31b6541580ec77ec03908e9769274f))
+-  **ci:** Use aa900031/github-actions/setup-node ([f828e21](https://github.com/aa900031/eslint-config/commit/f828e21c455736459e3f2d6e90ef969de35549bd))
+-  **deps:** Update dependency @antfu/eslint-config to v4.13.0 (#50) ([4a55527](https://github.com/aa900031/eslint-config/commit/4a555279eab8bdf9156d03cc46ea12b84645fe59))
+-  **deps:** Update node.js to v18.20.8 (#55) ([0788fa7](https://github.com/aa900031/eslint-config/commit/0788fa730b5ad1396ee248d22db0ce6d89acb4e6))
+-  **deps:** Update node.js to v20.19.2 (#59) ([42a4728](https://github.com/aa900031/eslint-config/commit/42a4728db234c0f985b50074dc3c7f13d5125a65))
+-  **deps:** Update npm non-major dependencies (#61) ([90b8c22](https://github.com/aa900031/eslint-config/commit/90b8c22d5a3bdf50f1aa25a30b400338d41052fb))
+-  **deps:** Update npm non-major develop dependencies (#56) ([053213f](https://github.com/aa900031/eslint-config/commit/053213f0b9bcadba7471e1d8dff8d7ca48c4ef1f))
+-  **deps:** Update npm non-major develop dependencies (#58) ([e82db8c](https://github.com/aa900031/eslint-config/commit/e82db8cef378ab1294896bb673620f48f3f169a7))
+-  **deps:** Update npm non-major develop dependencies (#60) ([44f233f](https://github.com/aa900031/eslint-config/commit/44f233fb875e1c15303a01967aee569f17f62794))
+-  **deps:** Update npm non-major develop dependencies (#65) ([40159cd](https://github.com/aa900031/eslint-config/commit/40159cde0c8550537cc31ef3e1bcbf7877b9b068))
+-  **deps:** Update pnpm to v10.11.0 (#57) ([d09616e](https://github.com/aa900031/eslint-config/commit/d09616ec7777b75ec8025d8f34df36a568ca9c24))
+-  **deps:** Update pnpm to v10.12.1 (#62) ([56839fe](https://github.com/aa900031/eslint-config/commit/56839fea7bc4a670d9ef26ccee236451131b0558))
+-  **deps:** Update pnpm to v10.15.0 (#64) ([f84fe60](https://github.com/aa900031/eslint-config/commit/f84fe6059ee1d30982d052dd0e18ad5bb4e4852e))
+-  **deps:** Update pnpm to v10.6.5 (#51) ([78ddead](https://github.com/aa900031/eslint-config/commit/78ddead02907ddfc5b3976711aca19002192ee6f))
+-  **deps:** Update pnpm to v10.7.1 (#53) ([15c8fb0](https://github.com/aa900031/eslint-config/commit/15c8fb03b0d506d9479e40132d82b7218093c42d))
+-  **deps:** Update pnpm to v10.8.0 (#54) ([423685c](https://github.com/aa900031/eslint-config/commit/423685cd4f863c894c837c35a438ec215b35ed6e))
+-  **deps:** Use release-it 19 ([daf5832](https://github.com/aa900031/eslint-config/commit/daf583296de05082b37fa9ca2c8702f556853c4a))
+-  Format by eslint ([01b1f66](https://github.com/aa900031/eslint-config/commit/01b1f66083713bd2bddfdc037d947ed457fc492b))
+-  Upgrade dev deps ([2f1c022](https://github.com/aa900031/eslint-config/commit/2f1c022532ac0dc4f9e82fe403ba678a60c785d3))
+-  Upgrade nodejs ([9568372](https://github.com/aa900031/eslint-config/commit/9568372bc5ad8ab18b0f94e638fb81c690ee765e))
+-  Upgrade release-it (#52) ([9239a99](https://github.com/aa900031/eslint-config/commit/9239a996bc48ad8c0d92b26a29e11d13545f88b0))
+-  Use @aa900031/release-it-config ([e9abb56](https://github.com/aa900031/eslint-config/commit/e9abb568923384a5666c064dcbe6e47f422e0c0c))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v3.1.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v3.0.0...v3.1.0)
