@@ -3,7 +3,7 @@ packages:
 
 catalogs:
   deps:
-    '@antfu/eslint-config': 4.19.0
+    '@antfu/eslint-config': 5.4.1
     defu: ^6.1.4
     eslint-plugin-case-police: ^1.0.0
     eslint-plugin-file-progress: ^3.0.2

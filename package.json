@@ -6,9 +6,13 @@
 	"description": "ESLint config for @aa900031",
 	"author": {
 		"name": "zhong666",
-		"email": "aa900031@gmail.com"
+		"email": "hi@zhong666.me"
 	},
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aa900031/eslint-config"
+	},
 	"exports": {
 		".": {
 			"types": "./dist/index.d.mts",
