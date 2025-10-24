@@ -43,7 +43,7 @@
 		"is-in-ci": "^1.0.0",
 		"local-pkg": "^1.1.2",
 		"resolve-pkg": "^2.0.0",
-		"semver": "^7.7.2"
+		"semver": "^7.7.3"
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
