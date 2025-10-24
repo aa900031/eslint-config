@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v4.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v3.2.0...v4.0.0)
+
+### 🏡 Chore
+
+-  ⚠️ Upgrade deps ([ff69a11](https://github.com/aa900031/eslint-config/commit/ff69a115b27afad93edec049c8902fb48a896e72))
+-  Add autofix ([2fda620](https://github.com/aa900031/eslint-config/commit/2fda6200726bbf61d9d23a345d5217b7a80ae545))
+-  **deps:** Update npm non-major develop dependencies (#67) ([818955c](https://github.com/aa900031/eslint-config/commit/818955ce2b6e12b5a031787f8241d36aad18b236))
+-  **deps:** Update pnpm to v10.18.3 (#66) ([f10f979](https://github.com/aa900031/eslint-config/commit/f10f97900a3757d59e1f85475293eab108386ec1))
+-  Tsconfig withs right config ([5179ee3](https://github.com/aa900031/eslint-config/commit/5179ee30e4a0ced57429961ad22b4954309f09a0))
+-  Update scripts ([3c0ca2f](https://github.com/aa900031/eslint-config/commit/3c0ca2fd687e1f3c3a2fbebeb36e217c6ae70c0a))
+-  Use npm trusted publisher ([8b434dd](https://github.com/aa900031/eslint-config/commit/8b434dd497d68a37f298ba7a0b7f9a7e1189f497))
+-  Use pnpm catalogs ([b1bfdf2](https://github.com/aa900031/eslint-config/commit/b1bfdf2f492da3d97e294e992ad6ca36c6b9d39c))
+
+
+### ⚠️ Breaking Changes
+
+-  upgrade deps ([ff69a11](https://github.com/aa900031/eslint-config/commit/ff69a115b27afad93edec049c8902fb48a896e72))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v3.2.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v3.1.0...v3.2.0)
