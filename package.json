@@ -25,12 +25,12 @@
 		"access": "public"
 	},
 	"scripts": {
+		"postinstall": "unbuild --stub",
 		"dev": "run-s dev:*",
-		"dev:build": "unbuild --stub",
 		"dev:ui": "eslint-config-inspector",
 		"build": "unbuild",
 		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
-		"release": "release-it --ci"
+		"release": "release-it"
 	},
 	"peerDependencies": {
 		"eslint": ">=8.0.0"
