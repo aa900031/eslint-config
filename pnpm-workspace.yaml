@@ -1,16 +1,20 @@
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
 packages:
   - '**'
 
 catalogs:
   deps:
-    '@antfu/eslint-config': 5.4.1
+    '@antfu/eslint-config': 6.7.3
     defu: ^6.1.4
-    eslint-plugin-case-police: ^1.0.0
+    eslint-plugin-case-police: ^2.1.1
     eslint-plugin-file-progress: ^3.0.2
-    is-in-ci: ^1.0.0
+    is-in-ci: ^2.0.0
     local-pkg: ^1.1.2
     resolve-pkg: ^2.0.0
-    semver: ^7.7.2
+    semver: ^7.7.3
   dev:
     '@aa900031/release-it-config': ^0.1.0
     '@eslint/config-inspector': ^1.3.0
