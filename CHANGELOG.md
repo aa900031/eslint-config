@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v5.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v4.0.0...v5.0.0)
+
+### 🚀 Enhancements
+
+-  ⚠️ Upgrade antfu eslint config ([aeb409a](https://github.com/aa900031/eslint-config/commit/aeb409a7b5ffeb554f551846ff2de693bcf6cbd3))
+
+### 📖 Documentation
+
+-  Add coverage and CodeRabbit badges ([eba864a](https://github.com/aa900031/eslint-config/commit/eba864aa89dde09188d8bcffa8be638c54f5a4b8))
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#63) ([66c46b0](https://github.com/aa900031/eslint-config/commit/66c46b0c022ccf91c4da8402c2f00ccf355b0d14))
+-  **deps:** Update pnpm to v10.27.0 (#69) ([a5d14c9](https://github.com/aa900031/eslint-config/commit/a5d14c97fdd326604769163b210199658fa7254d))
+
+
+### ⚠️ Breaking Changes
+
+-  upgrade antfu eslint config ([aeb409a](https://github.com/aa900031/eslint-config/commit/aeb409a7b5ffeb554f551846ff2de693bcf6cbd3))
+
+#### ❤️ Contributors
+
+- Renovate[bot] 
+- Zhong666 <aa900031@gmail.com>
+
 ## v4.0.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v3.2.0...v4.0.0)
