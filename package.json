@@ -2,7 +2,7 @@
 	"name": "@aa900031/eslint-config",
 	"type": "module",
 	"version": "5.0.0",
-	"packageManager": "pnpm@10.27.0",
+	"packageManager": "pnpm@10.28.1",
 	"description": "ESLint config for @aa900031",
 	"author": {
 		"name": "zhong666",
