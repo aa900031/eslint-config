@@ -4,6 +4,7 @@ import type { FlatConfigComposer } from 'eslint-flat-config-utils'
 import antfu, { isInEditorEnv } from '@antfu/eslint-config'
 import defu from 'defu'
 import { resolveConfigs } from './config'
+import { angular } from './configs/angular'
 import { astro } from './configs/astro'
 import { indent } from './configs/indent'
 import { progress } from './configs/progress'
@@ -34,6 +35,7 @@ export function aa900031(
 		vue(options),
 		astro(options),
 		solid(options),
+		angular(options),
 	)
 
 	return antfu(
