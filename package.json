@@ -14,13 +14,9 @@
 		"url": "https://github.com/aa900031/eslint-config"
 	},
 	"exports": {
-		".": {
-			"types": "./dist/index.d.mts",
-			"default": "./dist/index.mjs"
-		}
+		".": "./dist/index.mjs",
+		"./package.json": "./package.json"
 	},
-	"main": "./dist/index.mjs",
-	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.mts",
 	"files": [
 		"dist"
@@ -29,10 +25,8 @@
 		"access": "public"
 	},
 	"scripts": {
-		"dev": "run-s 'dev:*'",
-		"dev:prepare": "unbuild --stub",
-		"dev:ui": "eslint-config-inspector",
-		"build": "unbuild",
+		"dev": "eslint-config-inspector --config eslint.config.ts",
+		"build": "tsdown",
 		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
 		"release": "release-it",
 		"typecheck": "tsc --noEmit"
@@ -58,9 +52,8 @@
 		"@types/node": "catalog:types",
 		"@types/semver": "catalog:types",
 		"eslint": "catalog:peer",
-		"npm-run-all2": "catalog:dev",
 		"release-it": "catalog:dev",
-		"typescript": "catalog:types",
-		"unbuild": "catalog:dev"
+		"tsdown": "catalog:dev",
+		"typescript": "catalog:types"
 	}
 }
