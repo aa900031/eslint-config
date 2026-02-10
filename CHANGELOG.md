@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v6.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v5.0.1...v6.0.0)
+
+### 🚀 Enhancements
+
+-  Add angular config ([41e272f](https://github.com/aa900031/eslint-config/commit/41e272fbca2fcf052ae947fb59d6f32fc0a40953))
+
+### 📖 Documentation
+
+-  Update auto-detect rules ([101a223](https://github.com/aa900031/eslint-config/commit/101a223ef8cc7646a2b7aeab8e4af9a2ca656069))
+
+### 🏡 Chore
+
+-  **deps:** ⚠️ Upgrade @antfu/eslint-config to v7 ([1471a1e](https://github.com/aa900031/eslint-config/commit/1471a1eb70f46418fed44564028364e5aedba25a))
+-  Move eslint config to `.ts` file ext ([2bb2f4d](https://github.com/aa900031/eslint-config/commit/2bb2f4dc58f4f9d7588bcfac0f6af2cd20b4c59c))
+-  Move pnpm config to pnpm-workspace ([45793b3](https://github.com/aa900031/eslint-config/commit/45793b3e98c830d2bd62b77823528e26d85e206e))
+-  Use tsdown replace unbuild ([6d2743f](https://github.com/aa900031/eslint-config/commit/6d2743fc67ef36dcd397da302dbb094adba7b003))
+
+
+### ⚠️ Breaking Changes
+
+-  **deps:** upgrade @antfu/eslint-config to v7 ([1471a1e](https://github.com/aa900031/eslint-config/commit/1471a1eb70f46418fed44564028364e5aedba25a))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v5.0.1
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v5.0.0...v5.0.1)
