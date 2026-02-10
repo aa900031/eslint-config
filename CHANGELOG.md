@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v5.0.1
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v5.0.0...v5.0.1)
+
+### 🩹 Fixes
+
+-  Remove postinstall ([e7981b4](https://github.com/aa900031/eslint-config/commit/e7981b437267d0b157c856096a1b66c83010bebb))
+
+### 🏡 Chore
+
+-  Approve-builds ([01fbae7](https://github.com/aa900031/eslint-config/commit/01fbae72fde626e1dce59a83c0e134ff5c450fe2))
+-  **deps:** Update all non-major dependencies ([cce62b1](https://github.com/aa900031/eslint-config/commit/cce62b1f0c16cf7ef8e1438ea8e80591b19997e9))
+-  **deps:** Update dev deps ([e706e43](https://github.com/aa900031/eslint-config/commit/e706e438a79fa11ed2954bc59d9408c26ba6f95a))
+-  **deps:** Update pnpm ([1892621](https://github.com/aa900031/eslint-config/commit/1892621ca43e15c446fad706131d42850d1efa19))
+-  Trust policy ignore for 30 days ([9160d8d](https://github.com/aa900031/eslint-config/commit/9160d8df0866177709db94d1314e25dd0f1cfdd9))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v5.0.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v4.0.0...v5.0.0)
