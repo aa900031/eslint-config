@@ -29,11 +29,11 @@
 		"access": "public"
 	},
 	"scripts": {
-		"postinstall": "unbuild --stub",
 		"dev": "run-s dev:*",
+		"dev:prepare": "unbuild --stub",
 		"dev:ui": "eslint-config-inspector",
 		"build": "unbuild",
-		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
+		"lint": "unbuild --stub && eslint . --cache --cache-location ./node_modules/.cache/eslint",
 		"release": "release-it"
 	},
 	"peerDependencies": {
