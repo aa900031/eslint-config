@@ -29,12 +29,13 @@
 		"access": "public"
 	},
 	"scripts": {
-		"dev": "run-s dev:*",
+		"dev": "run-s 'dev:*'",
 		"dev:prepare": "unbuild --stub",
 		"dev:ui": "eslint-config-inspector",
 		"build": "unbuild",
-		"lint": "unbuild --stub && eslint . --cache --cache-location ./node_modules/.cache/eslint",
-		"release": "release-it"
+		"lint": "eslint . --cache --cache-location ./node_modules/.cache/eslint",
+		"release": "release-it",
+		"typecheck": "tsc --noEmit"
 	},
 	"peerDependencies": {
 		"eslint": "^9.10.0 || ^10.0.0"
