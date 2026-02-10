@@ -7,13 +7,13 @@ packages:
 
 catalogs:
   deps:
-    '@antfu/eslint-config': 6.7.3
+    '@antfu/eslint-config': 7.4.2
     defu: ^6.1.4
     eslint-plugin-case-police: ^2.1.1
     eslint-plugin-file-progress: ^3.0.2
     is-in-ci: ^2.0.0
     local-pkg: ^1.1.2
-    resolve-pkg: ^2.0.0
+    resolve-pkg: ^3.0.0
     semver: ^7.7.4
   dev:
     '@aa900031/release-it-config': ^0.1.0

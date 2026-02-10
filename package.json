@@ -2,7 +2,7 @@
 	"name": "@aa900031/eslint-config",
 	"type": "module",
 	"version": "5.0.1",
-	"packageManager": "pnpm@10.28.1",
+	"packageManager": "pnpm@10.29.2",
 	"description": "ESLint config for @aa900031",
 	"author": {
 		"name": "zhong666",
@@ -37,7 +37,7 @@
 		"release": "release-it"
 	},
 	"peerDependencies": {
-		"eslint": ">=8.0.0"
+		"eslint": "^9.10.0 || ^10.0.0"
 	},
 	"dependencies": {
 		"@antfu/eslint-config": "catalog:deps",
