@@ -9,7 +9,7 @@
 Extends from [@antfu/eslint-conifg](https://github.com/antfu/eslint-config)
 
 - Indent with tabs
-- Auto detect rules: React, Svelte, Vue, Solid, UnoCSS
+- Auto detect rules: Vue, Svelte, Astro, UnoCSS, Solid, React, Angular
 - Auto detect Vue version
 - CLI Progress bar
 
