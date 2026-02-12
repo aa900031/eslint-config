@@ -26,7 +26,7 @@ catalogs:
   peer:
     eslint: ^9.39.2
   types:
-    '@tsconfig/node22': ^22.0.5
+    '@tsconfig/node24': ^24.0.0
     '@types/node': ^22.19.10
     '@types/semver': ^7.7.1
     typescript: ~5.9.3
