@@ -1,3 +1,4 @@
+import { customExports } from '@aa900031/tsdown-config'
 import { defineConfig } from 'tsdown'
 
 export default defineConfig({
@@ -6,7 +7,9 @@ export default defineConfig({
 	],
 	shims: true,
 	format: ['esm'],
-	exports: true,
+	exports: {
+		customExports,
+	},
 	clean: true,
 	dts: true,
 	external: [

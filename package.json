@@ -47,6 +47,7 @@
 	"devDependencies": {
 		"@aa900031/eslint-config": "workspace:*",
 		"@aa900031/release-it-config": "catalog:dev",
+		"@aa900031/tsdown-config": "catalog:dev",
 		"@eslint/config-inspector": "catalog:dev",
 		"@tsconfig/node22": "catalog:types",
 		"@types/node": "catalog:types",

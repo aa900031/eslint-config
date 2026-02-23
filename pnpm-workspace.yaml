@@ -20,6 +20,7 @@ catalogs:
     semver: ^7.7.4
   dev:
     '@aa900031/release-it-config': ^0.1.0
+    '@aa900031/tsdown-config': ^0.1.0
     '@eslint/config-inspector': ^1.4.2
     release-it: ^19.2.4
     tsdown: ^0.20.3
