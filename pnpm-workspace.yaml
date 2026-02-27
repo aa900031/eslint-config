@@ -10,25 +10,25 @@ packages:
 
 catalogs:
   deps:
-    '@antfu/eslint-config': 7.4.2
+    '@antfu/eslint-config': 7.4.3
     defu: ^6.1.4
     eslint-plugin-case-police: ^2.1.1
     eslint-plugin-file-progress: ^3.0.2
     is-in-ci: ^2.0.0
     local-pkg: ^1.1.2
-    resolve-pkg: ^3.0.0
+    resolve-pkg: ^3.0.1
     semver: ^7.7.4
   dev:
-    '@aa900031/release-it-config': ^0.1.0
+    '@aa900031/release-it-config': ^0.1.1
     '@aa900031/tsdown-config': ^0.1.0
     '@eslint/config-inspector': ^1.4.2
     release-it: ^19.2.4
     tsdown: ^0.20.3
   peer:
-    eslint: ^9.39.2
+    eslint: ^9.39.3
   types:
     '@tsconfig/node22': ^22.0.5
-    '@types/node': ^22.19.10
+    '@types/node': ^22.19.11
     '@types/semver': ^7.7.1
     typescript: ~5.9.3
 
