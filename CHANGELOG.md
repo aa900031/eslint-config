@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v6.1.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v6.0.0...v6.1.0)
+
+### 🏡 Chore
+
+-  **deps:** Update all non-major dependencies (#72) ([afb63c5](https://github.com/aa900031/eslint-config/commit/afb63c5d382c9a98732e6bae1209a6415b68fa87))
+-  **deps:** Update autofix-ci/action digest to 7a166d7 (#74) ([8a92eb3](https://github.com/aa900031/eslint-config/commit/8a92eb36154ce64236500f5ee41320d2c3697f57))
+-  **deps:** Update pnpm to v10.32.1 (#76) ([7ac255f](https://github.com/aa900031/eslint-config/commit/7ac255fa22e99a39f1d776ebc1aec1c1c567a2d3))
+-  Drop auto install peer deps ([0c4fd49](https://github.com/aa900031/eslint-config/commit/0c4fd49e0463d4ba0cef1c56155e8def22b8911d))
+-  Update vscode settings ([0754329](https://github.com/aa900031/eslint-config/commit/0754329420c31555608e9d8577290576fb91e0ba))
+-  Use @aa900031/tsdown-config ([4508404](https://github.com/aa900031/eslint-config/commit/4508404eeb65f98e67a8d942983d70204b91ecb0))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v6.0.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v5.0.1...v6.0.0)
