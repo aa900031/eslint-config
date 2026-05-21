@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v6.1.2
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v6.1.1...v6.1.2)
+
+### 💅 Refactors
+
+-  Forked from `eslint-plugin-file-progress` with ESLint v9/v10 compatibility ([b8df96a](https://github.com/aa900031/eslint-config/commit/b8df96aa88cd0bf9aed41775cca88f6f57901b33))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v6.1.1
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v6.1.0...v6.1.1)
