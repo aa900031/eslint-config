@@ -17,15 +17,18 @@ importers:
       eslint-plugin-case-police:
         specifier: ^2.2.1
         version: 2.2.1(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
-      eslint-plugin-file-progress:
-        specifier: ^3.0.2
-        version: 3.0.2(eslint@9.39.4(jiti@2.6.1))
       is-in-ci:
         specifier: ^2.0.0
         version: 2.0.0
       local-pkg:
         specifier: ^1.1.2
         version: 1.1.2
+      nanospinner:
+        specifier: ^1.2.2
+        version: 1.2.2
+      picocolors:
+        specifier: ^1.1.1
+        version: 1.1.1
       resolve-pkg:
         specifier: ^3.0.1
         version: 3.0.1
@@ -1408,12 +1411,6 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=8'
-
-  eslint-plugin-file-progress@3.0.2:
-    resolution: {integrity: sha512-wX54LVbKP1MOe+yXI6CkfyseUkgiBgvHDgb3mWZ5j6xfQa81hcLzeiOew+rIZuxZQ+M3UHLC4pOGRYUP6OKsyA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    peerDependencies:
-      eslint: ^9.0.0
 
   eslint-plugin-import-lite@0.5.2:
     resolution: {integrity: sha512-XvfdWOC5dSLEI9krIPRlNmKSI2ViIE9pVylzfV9fCq0ZpDaNeUk6o0wZv0OzN83QdadgXp1NsY0qjLINxwYCsw==}
@@ -3972,12 +3969,6 @@ snapshots:
       '@eslint-community/regexpp': 4.12.2
       eslint: 9.39.4(jiti@2.6.1)
       eslint-compat-utils: 0.5.1(eslint@9.39.4(jiti@2.6.1))
-
-  eslint-plugin-file-progress@3.0.2(eslint@9.39.4(jiti@2.6.1)):
-    dependencies:
-      eslint: 9.39.4(jiti@2.6.1)
-      nanospinner: 1.2.2
-      picocolors: 1.1.1
 
   eslint-plugin-import-lite@0.5.2(eslint@9.39.4(jiti@2.6.1)):
     dependencies:

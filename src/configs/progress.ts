@@ -1,7 +1,7 @@
 import type { OptionsConfig } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
-import pluginFileProgress from 'eslint-plugin-file-progress'
 import isInCi from 'is-in-ci'
+import { fileProgressPlugin } from '../plugins/file-progress'
 
 export function progress(
 	options: OptionsConfig,
@@ -15,7 +15,7 @@ export function progress(
 			{
 				name: 'aa900031:progress',
 				plugins: {
-					progress: pluginFileProgress,
+					progress: fileProgressPlugin,
 				},
 				rules: {
 					'progress/activate': 2,
