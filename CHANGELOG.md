@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v7.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v6.1.2...v7.0.0)
+
+### 🏡 Chore
+
+-  **deps:** ⚠️ Upgrade @antfu/eslint-config to v8 ([e31bb57](https://github.com/aa900031/eslint-config/commit/e31bb575cef78b9e2323c43c044d483ba889b64d))
+-  **deps:** Upgrade eslint to v10 ([4015145](https://github.com/aa900031/eslint-config/commit/4015145d15bf526667a303bdc08f984dd3c09850))
+-  Use nodejs v24 ([e571e20](https://github.com/aa900031/eslint-config/commit/e571e20bdd5146d25ecf3e71720ade517bf8b7d3))
+-  Use pnpm v11 ([0e215d3](https://github.com/aa900031/eslint-config/commit/0e215d3f4842baf77bb42d90f50d756065f4ff92))
+
+
+### ⚠️ Breaking Changes
+
+-  **deps:** upgrade @antfu/eslint-config to v8 ([e31bb57](https://github.com/aa900031/eslint-config/commit/e31bb575cef78b9e2323c43c044d483ba889b64d))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v6.1.2
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v6.1.1...v6.1.2)
