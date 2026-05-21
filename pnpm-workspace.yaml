@@ -7,6 +7,3 @@ trustPolicyIgnoreAfter: 432000
 
 packages:
   - '**'
-
-onlyBuiltDependencies:
-  - esbuild
