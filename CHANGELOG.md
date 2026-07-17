@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v8.0.0
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v7.0.1...v8.0.0)
+
+### 🏡 Chore
+
+-  **deps:** ⚠️ Upgrade @antfu/eslint-config to v9 ([fca09e5](https://github.com/aa900031/eslint-config/commit/fca09e5037b7b180440534c17a61513d155b3536))
+
+
+### ⚠️ Breaking Changes
+
+-  **deps:** upgrade @antfu/eslint-config to v9 ([fca09e5](https://github.com/aa900031/eslint-config/commit/fca09e5037b7b180440534c17a61513d155b3536))
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v7.0.1
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v7.0.0...v7.0.1)
