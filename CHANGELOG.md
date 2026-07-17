@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v7.0.1
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v7.0.0...v7.0.1)
+
+### 🏡 Chore
+
+-  **deps:** Update dependency semver to ^7.8.5 (#84) ([edb18b0](https://github.com/aa900031/eslint-config/commit/edb18b016ff9979cb5163654815fd3be7feda38b))
+-  **deps:** Update npm non-major dependencies (#80) ([41649ef](https://github.com/aa900031/eslint-config/commit/41649ef4a11f7f68fd404af6ba43d3252b1e3c45))
+-  **deps:** Update npm non-major develop dependencies (#83) ([2ebe247](https://github.com/aa900031/eslint-config/commit/2ebe247d09e2a5226d4b62cda312fe0266d31e93))
+-  **deps:** Update pnpm to v11.10.0 (#81) ([d3ba868](https://github.com/aa900031/eslint-config/commit/d3ba868142a7d838c12727b44931bbe1ecea676b))
+-  **deps:** Upgrade release-it to v20 ([af374b7](https://github.com/aa900031/eslint-config/commit/af374b702e6b2323fc89de1d907bb39de4827e8e))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v7.0.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v6.1.2...v7.0.0)
