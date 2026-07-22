@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v8.0.1
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v8.0.0...v8.0.1)
+
+### 💅 Refactors
+
+-  Use verkit replace semver ([ece2c57](https://github.com/aa900031/eslint-config/commit/ece2c57b02221e38caa93a23e9afeb4706f7cafb))
+
+### 🏡 Chore
+
+-  **deps:** Update tsdown to latest ([06574af](https://github.com/aa900031/eslint-config/commit/06574afd6186e111a1687a4280c72aba01a0cd6d))
+-  Use tsdown devExports ([38c0f7c](https://github.com/aa900031/eslint-config/commit/38c0f7c0a74ed9fa4b18b7d3db5008df55135de7))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+
 ## v8.0.0
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v7.0.1...v8.0.0)

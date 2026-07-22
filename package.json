@@ -1,7 +1,7 @@
 {
 	"name": "@aa900031/eslint-config",
 	"type": "module",
-	"version": "8.0.0",
+	"version": "8.0.1",
 	"packageManager": "pnpm@11.10.0",
 	"description": "ESLint config for @aa900031",
 	"author": {
