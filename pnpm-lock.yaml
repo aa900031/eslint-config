@@ -32,9 +32,9 @@ importers:
       resolve-pkg:
         specifier: ^3.0.1
         version: 3.0.1
-      semver:
-        specifier: ^7.8.5
-        version: 7.8.5
+      verkit:
+        specifier: ^0.1.2
+        version: 0.1.2
     devDependencies:
       '@aa900031/eslint-config':
         specifier: workspace:*
@@ -54,9 +54,6 @@ importers:
       '@types/node':
         specifier: ^24.13.3
         version: 24.13.3
-      '@types/semver':
-        specifier: ^7.7.1
-        version: 7.7.1
       eslint:
         specifier: ^10.6.0
         version: 10.7.0(jiti@2.7.0)
@@ -651,9 +648,6 @@ packages:
   '@types/parse-path@7.1.0':
     resolution: {integrity: sha512-EULJ8LApcVEPbrfND0cRQqutIOdiIgJ1Mgrhpy755r14xMohPTEpkV/k28SJvuOs9bHRFW8x+KeDAEPiGQPB9Q==}
     deprecated: This is a stub types definition. parse-path provides its own type definitions, so you do not need this installed.
-
-  '@types/semver@7.7.1':
-    resolution: {integrity: sha512-FmgJfu+MOcQ370SD0ev7EI8TlCAfKYU+B4m5T3yXc1CiRN94g/SZPtsCkk506aUDtlMnFZvasDwHHUcZUEaYuA==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -2408,6 +2402,10 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
+  verkit@0.1.2:
+    resolution: {integrity: sha512-WqkT8n3hqizuCu71W3bUzf5fjBmkbXcudsehe/NbxA8PgqoKnSOY5K0Ba2ckg1qaRaSpSz7as/n9K1R9JXjQKg==}
+    engines: {node: '>=18.12.0'}
+
   vue-eslint-parser@10.4.1:
     resolution: {integrity: sha512-Gk6gRDj0n/fkRa3C3l0bBheoBckUq/Rs0F/TvMWIS6nzzx67amAViMe9CkNgsP2tXyQONvGiHQESHwFtZ3aYDA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -3022,8 +3020,6 @@ snapshots:
   '@types/parse-path@7.1.0':
     dependencies:
       parse-path: 7.1.0
-
-  '@types/semver@7.7.1': {}
 
   '@types/unist@3.0.3': {}
 
@@ -4933,6 +4929,8 @@ snapshots:
     dependencies:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
+
+  verkit@0.1.2: {}
 
   vue-eslint-parser@10.4.1(eslint@10.7.0(jiti@2.7.0)):
     dependencies:

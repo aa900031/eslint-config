@@ -1,7 +1,7 @@
 import type { OptionsConfig, OptionsVue } from '@antfu/eslint-config'
 import type { ConfigFactoryResult } from '../config'
 import defu from 'defu'
-import { major } from 'semver'
+import { getMajor } from 'verkit'
 import { getPackageInfoSync, isPackagesExists } from '../utils'
 
 export function vue(
@@ -34,5 +34,5 @@ function getVueVersion(): 2 | 3 {
 	if (version == null)
 		throw new Error('Get Vue version failed, Please check the package "vue" is installed')
 
-	return major(version) as 2 | 3
+	return getMajor(version) as 2 | 3
 }
