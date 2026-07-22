@@ -12,7 +12,9 @@ export default defineConfig({
 	},
 	clean: true,
 	dts: true,
-	external: [
-		'eslint-flat-config-utils',
-	],
+	deps: {
+		neverBundle: [
+			'eslint-flat-config-utils',
+		],
+	},
 })
