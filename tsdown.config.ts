@@ -1,18 +1,8 @@
-import { customExports } from '@aa900031/tsdown-config'
-import { defineConfig } from 'tsdown'
+import { node } from '@aa900031/tsdown-config'
 
-export default defineConfig({
-	entry: [
-		'src/index.ts',
-	],
-	shims: true,
-	format: ['esm'],
-	exports: {
-		devExports: true,
-		customExports,
-	},
-	clean: true,
+export default node({}, {
 	dts: true,
+	shims: true,
 	deps: {
 		neverBundle: [
 			'eslint-flat-config-utils',
