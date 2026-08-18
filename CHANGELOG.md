@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v8.0.2
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v8.0.1...v8.0.2)
+
+### 🏡 Chore
+
+-  **ci:** Add typecheck ([add17c5](https://github.com/aa900031/eslint-config/commit/add17c5f5d8d46118a94d9deafcdaead3cdfed7d))
+-  **ci:** Update deps ([d9e0a3f](https://github.com/aa900031/eslint-config/commit/d9e0a3f859b59c0e6a25669a465ef58407ac8aba))
+-  **deps:** Update npm non-major dependencies (#87) ([70a5603](https://github.com/aa900031/eslint-config/commit/70a5603baecd79ba2ffc97326146ab06435eb784))
+-  **deps:** Update npm non-major dependencies (#90) ([633f45d](https://github.com/aa900031/eslint-config/commit/633f45dff4bc7542fe725178b851f3eafd03d60a))
+-  **deps:** Update npm non-major develop dependencies (#86) ([efd4bfa](https://github.com/aa900031/eslint-config/commit/efd4bfa36cf00c101ee6dc1cf0819c094ecf7b2f))
+-  **deps:** Update npm non-major develop dependencies (#88) ([8442f01](https://github.com/aa900031/eslint-config/commit/8442f013178a375b1db6fada26a2a2fe899de808))
+-  **deps:** Update pnpm to v11.15.1 (#85) ([ad1b87e](https://github.com/aa900031/eslint-config/commit/ad1b87e8613d94bd8a0ef12fbf21b61fbb7a1316))
+-  Use tsdown-config instead  of raw config ([17e1e13](https://github.com/aa900031/eslint-config/commit/17e1e13f682488abe8c26b2f080c02109d1bc05e))
+
+
+
+#### ❤️ Contributors
+
+- Zhong666 <aa900031@gmail.com>
+- Renovate[bot]
+
 ## v8.0.1
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v8.0.0...v8.0.1)
