@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 
+## v8.0.3
+
+[compare changes](https://github.com/aa900031/eslint-config/compare/v8.0.2...v8.0.3)
+
+### 🏡 Chore
+
+-  **deps:** Update dependency verkit to ^0.4.0 (#92) ([ffd9f91](https://github.com/aa900031/eslint-config/commit/ffd9f91c628c394d2ba936b234e7f52a12d4954a))
+-  **deps:** Update devdependency @tsconfig/node24 to v24.0.5 (#91) ([40a9eb0](https://github.com/aa900031/eslint-config/commit/40a9eb0e00aec7f97065685469378c4d01ae8773))
+-  **deps:** Update node.js to v24.19.0 (#82) ([1f13013](https://github.com/aa900031/eslint-config/commit/1f130131443b045eca7d8f46088395a3c722cdea))
+-  **deps:** Update npm non-major develop dependencies (#93) ([6273059](https://github.com/aa900031/eslint-config/commit/627305951482dec30394eccf499f5c153028cb5f))
+-  **deps:** Update pnpm to v11.22.0 (#89) ([ebb00de](https://github.com/aa900031/eslint-config/commit/ebb00deb23337567524b1f36a7b54d8e9f312fcf))
+-  **deps:** Update pnpm to v11.23.0 (#94) ([06d26e1](https://github.com/aa900031/eslint-config/commit/06d26e1a439a1627edf51f9be24fbc8f0cc4fce1))
+
+
+
+#### ❤️ Contributors
+
+- Renovate[bot]
+
 ## v8.0.2
 
 [compare changes](https://github.com/aa900031/eslint-config/compare/v8.0.1...v8.0.2)
