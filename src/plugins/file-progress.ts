@@ -63,7 +63,9 @@ function getRelativeFilePath(
 		return
 
 	const cwd = getCwd(context)
-	return cwd ? path.relative(cwd, filename) : filename
+	return cwd
+		? path.relative(cwd, filename)
+		: filename
 }
 
 function exitCallback(

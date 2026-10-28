@@ -17,9 +17,11 @@ export function vue(
 
 	const opts = !enabled
 		? false
-		: defu((typeof enabled === 'boolean' ? {} : enabled), {
-			vueVersion: getVueVersion(),
-		} satisfies OptionsVue)
+		: defu((typeof enabled === 'boolean'
+				? {}
+				: enabled), {
+					vueVersion: getVueVersion(),
+				} satisfies OptionsVue)
 
 	return {
 		options: {
