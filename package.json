@@ -59,7 +59,7 @@
 		"@types/node": "^24.19.2",
 		"eslint": "^10.13.0",
 		"release-it": "^20.2.1",
-		"tsdown": "^0.23.1",
+		"tsdown": "^0.23.2",
 		"typescript": "~6.0.3"
 	}
 }
